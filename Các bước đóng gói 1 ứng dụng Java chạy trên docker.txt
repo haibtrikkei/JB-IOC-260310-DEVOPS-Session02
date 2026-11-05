@@ -1,0 +1,13 @@
+1. Chạy ứng dụng trước để kiểm tra ứng dụng chạy tốt
+2. Triển khai file Dockerfile:
+	+ Giai đoạn 1: Đóng gói
+	+ Giai đoạn 2: Chạy
+	
+	=> Check version của gradle và JDK
+	=> Check port mà ứng dụng sẽ chạy
+3. Triển khai file docker-compose.yml
+	Khai báo các service tương ứng các container sẽ chạy lên docker
+	- Đổi tên service
+	- Đặt tên cho container
+	- Khai báo port 
+	- Khai báo các biến môi trường (nhớ thay đổi url kết nối csdl)
